@@ -3,3 +3,6 @@
 
 ### Code Climate test:
 [![Actions Status](https://api.codeclimate.com/v1/badges/da2b1fbffcfdca440a1e/maintainability)](https://codeclimate.com/github/vimaxoff/frontend-project-44/maintainability)
+
+### Brain-even demo:
+[![asciicast](https://asciinema.org/a/jLb5wFNVKHNx4Ve9YSJe5nVqM.svg)](https://asciinema.org/a/jLb5wFNVKHNx4Ve9YSJe5nVqM)
