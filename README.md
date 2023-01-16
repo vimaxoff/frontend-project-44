@@ -6,3 +6,6 @@
 
 ### Brain-even demo:
 [![asciicast](https://asciinema.org/a/jLb5wFNVKHNx4Ve9YSJe5nVqM.svg)](https://asciinema.org/a/jLb5wFNVKHNx4Ve9YSJe5nVqM)
+
+### Brain-calc demo:
+[![asciicast](https://asciinema.org/a/6sF9wmYJQusRo3d3l03IfQhjJ.svg)](https://asciinema.org/a/6sF9wmYJQusRo3d3l03IfQhjJ)
