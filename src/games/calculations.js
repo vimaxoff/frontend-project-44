@@ -23,6 +23,16 @@ const calculator = (str) => {
   return result;
 };
 
+const greatestCommonDevisor = (firstNumber, secondNumber) => {
+  if (firstNumber === 0) {
+    return secondNumber;
+  } if (secondNumber === 0) {
+    return firstNumber;
+  }
+  const remainder = firstNumber % secondNumber;
+  return greatestCommonDevisor(secondNumber, remainder);
+};
+
 export {
-  yesOrNo, randomNum, randomSign, calculator,
+  yesOrNo, randomNum, randomSign, calculator, greatestCommonDevisor,
 };
