@@ -46,6 +46,22 @@ const array = () => {
   return result;
 };
 
+const isPrime = (num) => {
+  let result = '';
+  if (num === 1) {
+    result = 'no';
+    return result;
+  }
+
+  for (let i = 2; i < Math.round(num / 2); i += 1) {
+    if (num % i === 0) {
+      result = 'no';
+      return result;
+    } result = 'yes';
+  }
+  return result;
+};
+
 export {
-  yesOrNo, randomNum, randomSign, calculator, greatestCommonDevisor, array,
+  yesOrNo, randomNum, randomSign, calculator, greatestCommonDevisor, array, isPrime,
 };
